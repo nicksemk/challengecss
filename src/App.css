@@ -1,6 +1,14 @@
 h1{
   color: black; 
   padding: 55px;
-  padding-left: 555px;
-  padding-right: 100px;
+  display:grid ;
+  place-items: center;
+}
+
+.car_conteiner{
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 20px;
 }
