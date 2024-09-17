@@ -12,7 +12,7 @@ function App() {
   {id:3, brand:"Audi",model:"A6",color: "Branco", km:0},
   {id:5, brand:"Jeep",model:"COMPASS",color: "Vermelho", km:2342},
   {id:6, brand:"Honda",model:"CIVIC",color: "Preto", km:452},
-  {id:7, brand:"Chevrovel",model:"S10 HIGH COUNTRY",color: "Azul", km:24342},
+  {id:7, brand:"Chevrolet",model:"S10 HIGH COUNTRY",color: "Azul", km:24342},
  ];
 
   return (
