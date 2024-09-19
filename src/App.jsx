@@ -22,11 +22,17 @@ function App() {
       <div className="car_conteiner">
       {cars.map((car)=> (
         <CarComponents
+        //posso fazer assim (exemplo abaixo)
         key={car.id}
         brand={car.brand}
         model={car.model}
         color={car.color}
         km={car.km}
+        
+        //ou posso fazer assim (exemplo abaixo)
+
+        //car={car}
+        
         />
       ))}
     </div>  
